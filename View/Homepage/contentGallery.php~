@@ -1,0 +1,61 @@
+
+<div class="gallery">
+                  <p align="center">
+    <a href="javascript:indietro()">INDIETRO</a> |
+    <a href="javascript:avanti()">AVANTI</a>
+    <br><br>
+    <img src="img/foto4.jpg" name="immagine">
+</p>
+
+ 
+	</div>
+ 		<div id="clear" "clear: both; width: 0px; height: 0px;"></div>
+
+<script>
+var foto = new Array();
+
+foto[0] = "img/foto1.jpg"
+foto[1] = "img/foto2.jpg"
+foto[2] = "img/foto3.jpg"
+foto[3] = "img/foto4.jpg"
+foto[4] = "img/foto5.jpg"
+foto[5] = "img/foto6.jpg"
+foto[6] = "img/foto7.jpg"
+foto[7] = "img/foto8.jpg"
+foto[8] = "img/foto9.jpg"
+foto[9] = "img/foto10.jpg"
+foto[10] = "img/foto11.jpg"
+foto[11] = "img/foto12.jpg"
+foto[12] = "img/foto13.jpg"
+foto[13] = "img/foto14.jpg"
+foto[14] = "img/foto15.jpg"
+
+
+var i = 0;
+
+function indietro()
+{
+    if (i == 0)
+    {
+        i = foto.length - 1;
+    }
+    else
+    {
+        i--;
+    }
+    document.immagine.src = foto[i];
+}
+
+function avanti()
+{
+    if (i > foto.length - 1)
+    {
+        i++;
+    }
+    else
+    {
+        i=0;
+    }
+    document.immagine.src = foto[i];
+}
+</script>

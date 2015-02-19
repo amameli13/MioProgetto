@@ -1,0 +1,22 @@
+.gallery ul li{
+ float : left;
+ width : 130px;
+ height : 70px;
+ color : transparent;
+ //position: relative;
+ //bottom: 65px;
+
+ } 
+
+#content{
+
+padding:15%;
+padding-left: 18%;
+padding-right: 18%;
+
+
+
+}
+
+
+

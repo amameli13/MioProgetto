@@ -1,0 +1,7 @@
+<ul>
+<li><a href="index.php?page=login"> HOME </a></li>
+<li><a href="index.php?page=login">Bio</a></li>
+<li><a href="index.php?page=utente&com=gallery">Gallery</a></li>
+<li><a href="index.php?page=login">Events</a></li>
+<li><a href="home_friends.html">Friends</a></li>
+</ul>

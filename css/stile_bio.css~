@@ -1,0 +1,31 @@
+#bio{
+float:center;
+color : green;
+text-align: center;
+font-family:"Times New	Roman",Times,serif;
+font-size:20px;
+}
+
+#content{
+
+padding:4%;
+padding-left: 19%;
+padding-right: 19%;
+//position:relative;
+//bottom: 350px;
+
+}
+
+#footer{
+//position:relative;
+((bottom:300px;
+
+
+}
+
+#reg{
+position:relative;
+right:30px;
+
+
+}
